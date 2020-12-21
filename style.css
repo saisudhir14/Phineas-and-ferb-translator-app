@@ -1,0 +1,151 @@
+
+/* ::placeholder{
+    font-family: 'Montserrat'sans-serif';
+} */
+
+
+input[type="text"] {
+    font-family:Montserrat'sans-serif' ;
+    font-size: 20px;
+    color: #fff;
+  }
+
+
+
+  ::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 13px;
+  }
+  ::-moz-placeholder {
+    color:#fff;
+    font-size: 13px;
+  }
+  :-ms-input-placeholder {
+    color:#fff;
+    font-size: 13px;
+  }
+  ::placeholder {
+    color:#fff;
+    font-size: 13px;
+  }
+
+
+
+
+h1,h2,h3    {
+    font-family: 'Abril Fatface';
+    margin: 0px;
+}
+p,small,span{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* h1,h2,h3,h4,h5,h6{
+    
+} */
+
+.links{
+    text-decoration: none;
+    color:rgb(255, 0, 200);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color : #54175a;
+    --button-color : #2f97ed;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Open Sans' , sans-serif;
+    background-color: white;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+
+
+textarea {
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    font-family: inherit;
+    min-height: 20vh;
+    font-size: 16px;
+    color : black;
+    border: none;
+    background-color:#2fc7ed;
+    border-radius: 8px;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+
+.centered-container {
+    text-align: center;
+}
+
+
+.section {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.section .translate-output {
+    min-height: 10vh;
+    max-height: 20vh;
+}
+
+.navigation {
+    text-align: center;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.heading {
+    display: flex;
+    justify-content:center;
+    padding: 2rem;
+}
+ img {
+    max-width: 300px;
+}
+
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    padding: 12px;
+    background-color: var(--button-color);
+    font-size: 18px;
+    font-family: inherit;
+    color :white;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+footer {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer h2 {
+    margin-bottom: 4px;
+}
+
+footer p{
+    line-height: 22px;
+}

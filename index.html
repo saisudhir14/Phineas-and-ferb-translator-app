@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@700&display=swap" 
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Translator app-2!</title>
+    
+    
+</head>
+<body>
+    <nav class="navigation">
+        <div class="heading">
+            <img src="pAndFerb.jpg" />
+        </div>
+    </nav>
+    
+    <div class="centered-container">
+        <p></p>
+    </div>
+
+    <section class="section">
+        <p>Learn how Phineas and Ferb communiacate..<br>Type the text below and press on the translate button to find out!</p>
+
+        <textarea id="txtInput" placeholder="Please type the text here to learn Phineas and Ferbs language!"></textarea>
+        <div class="centered-container">
+            <button id="btnTranslate">Translate!</button>
+        </div>
+
+        <div class="centered-container">
+            <p>Your input is now translated! Check the text below to learn more :)</p> 
+        </div>
+        <textarea disabled id="txtOutput" class="translate-output">
+        </textarea>
+    </section>
+
+    <footer>
+        <div class="centered-container">
+            <h2>About</h2>
+            <p>
+                Want to know more about Phineas and Ferb? <a class = "links" href="https://www.imdb.com/title/tt0852863/">Click on me!</a><p>To know more about Phineas and Ferb</p>
+            </p>
+        </div>
+    </footer>
+
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
